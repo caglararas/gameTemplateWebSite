@@ -1,0 +1,181 @@
+.navpos{
+
+    opacity: 0.8;
+}
+.body1 { 
+    background: url(../GameTemplate/Photos/ana-sayfa.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "Balsamiq Sans", cursive;
+  }
+.slider-w{
+    width: 85%;
+}
+.sagayasla{
+position: absolute;
+top: 10px;
+right: 25px;
+}
+.list-unstyled li a{
+    text-decoration: none;
+}
+.new{
+    text-decoration: none;
+}
+.bg-image {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgb(10,8,10);
+    background-color: rgba(10,10,10, 0.8); 
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+.foot{
+    background-color: rgb(10,8,10);
+    background-color: rgba(10,10,10, 0.8);
+}
+.solcol{
+      color: white;
+  }
+.sagcol{
+      color: white;
+}
+p {
+    color: white;
+}
+.jumbotron{
+    margin-top: 80px;
+}
+.mymodal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: rgb(10,8,10);
+    background-color: rgba(10,10,10, 0.8);
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0.3rem;
+    outline: 0;
+}
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: 370px;
+    margin-top: 0.125rem;
+}
+.dropdown-menu a:hover{
+    background-color: #dc3545;
+}
+.dropdown-menu a:active{
+    background-color: #030000;
+}
+.h-3{
+    height: auto;
+}
+.neon-button {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #dc3545;
+    
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.neon-button:hover {
+    color: #700606 ;
+    background: #dc3545;
+    box-shadow: 0 0 10px #dc3545, 0 0 40px #dc3545, 0 0 80px #dc3545;
+    transition-delay: 1s;
+}
+.neon-button span {
+    position: absolute;
+    display: block;
+}
+.neon-button span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #dc3545);
+}
+.neon-button:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+.neon-button span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #dc3545);
+}
+.neon-button:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+.neon-button span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #dc3545);
+}
+.neon-button:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+.neon-button span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #dc3545);
+}
+.neon-button:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+.stars{
+    float: right;
+}
+.fa-star-o {
+    font-size: 20px;
+    color: #808080;
+}
+.fa-star-half-o {
+    font-size: 20px;
+    color: #EDB867;
+}
+.fa-star {
+    font-size: 20px;
+    color: #EDB867;
+}
+.fa-star-o2 {
+    font-size: 20px;
+    color: #EDB867;
+}
+.average {
+    font-size: 18px;
+    color: #808080;
+    padding-left: 10px;
+}
